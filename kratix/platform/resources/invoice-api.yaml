@@ -1,0 +1,8 @@
+apiVersion: promise.kratix.io/v1alpha1
+kind: MongoDB
+metadata:
+  namespace: default
+  name: invoice-api
+spec:
+  majorVersion: 2
+  version: "6.0"
